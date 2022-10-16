@@ -1,0 +1,8 @@
+# Custom
+
+*.db
+*.db-journal
+*.0
+.env
+__pycache__/
+lib/cogs/indev/*
