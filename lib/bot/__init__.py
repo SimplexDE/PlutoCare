@@ -195,7 +195,7 @@ class Bot(BotBase):
 
             embed_done.set_footer(text="{} | {}".format(bot.user.name, self.VERSION), icon_url=bot.user.avatar)
 
-            counter = 15
+            counter = 45
             halfcounter = round(counter / 2)
 
             errorsduringload = False
@@ -227,7 +227,7 @@ class Bot(BotBase):
             log.success("Ready [{}@{}]".format(bot.user.name, self.VERSION))
             self.ready = True
 
-            channel = self.get_channel(979750917249310720)
+            channel = self.get_channel(1031329859282141284)
             await channel.send(embed=embed_done)
 
         else:

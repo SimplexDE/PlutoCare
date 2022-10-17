@@ -3,6 +3,8 @@
 *.db
 *.db-journal
 *.0
+.idea/
+venv/
 .env
 __pycache__/
 lib/cogs/indev/*
